@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+#hamburger{
+    display: none;
+}
+@media(max-width:450px) {
+    a{
+        text-decoration: underline;
+        display:none;
+    }
+    
+    nav{
+        flex-flow: column nowrap;
+        align-items: center;
+}
+    #hamburger{
+        display:flex;
+    }
+}
