@@ -3,16 +3,24 @@ body {
    background-color: lightgrey;
 } 
 header{
-    /* background-color:lightblue;  */
+    background-color:lightblue; 
+    color: rgb(74, 241, 68);
     width: 100%;
+    height: 14rem;
     text-align: center;
-    background: "/imgs.jpg/Benjamin.jpg";
+    padding: 5rem;
+    background: url(../img/benjamin.jpg);
+    background-size: cover;
 }
 
-form{
-    width: 100%;
+#calculator, #intro, #steps, #links{
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
+.introBudget{
+    text: bold;
+}
 
 nav{
     display: flex;
