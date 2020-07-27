@@ -3,9 +3,10 @@ body {
    background-color: lightgrey;
 } 
 header{
-    background-color: lightblue;
+    /* background-color:lightblue;  */
     width: 100%;
     text-align: center;
+    background: "/imgs.jpg/Benjamin.jpg";
 }
 
 form{
