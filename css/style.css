@@ -18,28 +18,12 @@ header{
     margin-right: 1rem;
 }
 
-.introBudget{
-    text: bold;
+.nav-bar{
+      padding: .7rem;
 }
 
-nav{
-    display: flex;
-    justify-content: space-evenly;
+.navbar-nav li {
+    padding-right: 20px;
 }
-#hamburger{
-    display: none;
-}
-@media(max-width:450px) {
-    a{
-        text-decoration: underline;
-        display:none;
-    }
-    
-    nav{
-        flex-flow: column nowrap;
-        align-items: center;
-}
-    #hamburger{
-        display:flex;
-    }
-}
+
+
