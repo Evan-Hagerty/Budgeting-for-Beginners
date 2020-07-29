@@ -13,35 +13,36 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">    
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <!-- <i id="hamburger" class="fa fa-bars" onclick="ToggleNavItems();"></i> -->
+                        <li class="nav-item active">
+                            <a href="#intro">Intro to Budgeting</a>
+                        </li>
+                        <li class="nav-item">    
+                            <a href="#steps">Simple Budgets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#calculator">Budget calculator</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#links">Links and apps</a>
+                        </li>    
+                    </ul>
+                </div>    
+        </div>
+    </nav>
     <div class="row">
         <header class="col-lg">
             <h1>Budgeting for the Beginner</h1>
         </header> 
     </div>
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-    <div class="container-fluid">    
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <!-- <i id="hamburger" class="fa fa-bars" onclick="ToggleNavItems();"></i> -->
-                    <li class="nav-item active">
-                        <a href="#intro">Intro to Budgeting</a>
-                    </li>
-                    <li class="nav-item">    
-                        <a href="#steps">Simple Budgets</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#calculator">Budget calculator</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#links">Links and apps</a>
-                    </li>    
-                </ul>
-            </div>    
-    </div>
-    </nav>
+   
     
     <div class="row"> 
         <!-- First intro to budgeting column -->
@@ -77,20 +78,20 @@
             <div class="calc">
                 <p>Budgeting Calculator</p>
             </div>
-                    <form>
+                    <form name="budgeting">
                         <div class="row">
                             <div class="col-lg"> 
-                                <label for="Income">Monthly Income</label>
-                                <input type="number" id="Income" name="Monthly" min="1" max="1000000" required >
+                                <label>Monthly Income</label>
+                                <input type="text" name="income" min="1" max="1000000" required >
                             </div>
                             <div class="col-lg"> 
                                 <button type="menu" id="calculate" onclick="calculateIncome();">Calculate</button>
-                                <button type="reset">Reset</button>
+                                <button type="reset" id="reset">Reset</button>
                             </div>
                         </div>
                         <div>
-                            <label for="Necessities">Necessities</label>
-                            <input>
+                            <label>Necessities</label>
+                            <input type="text" name="necessities">
                         </div>
                         <div>
                             <label for="wants">Wants</label>
