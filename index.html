@@ -36,7 +36,7 @@
                         <a href="#calculator">Budget calculator</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#links">Links</a>
+                        <a href="#links">Links and apps</a>
                     </li>    
                 </ul>
             </div>    
@@ -46,60 +46,71 @@
     <div class="row"> 
         <!-- First intro to budgeting column -->
         <div class="col-lg" id="intro">
-            <p class="budgetIntro">Intro to Budgeting:</p> 
-            <p>When beginning a budget it can seem like there are a lot of options to choose from. We will be using a very simple 50/30/20 budgeting model. This is when you take 50% of your income for necessities, which would be recurring bills like rent and utilities. You will allocate 30% of your income for wants or everyday expenses like travel and entertainment. Lastly you will allocate 20% of your income for savings and paying off debt.</p>
+            <div class="budget">   
+                <p>Intro to Budgeting:</p> 
+            </div>     
+                <p>When beginning a budget it can seem like there are a lot of options to choose from. We will be using a very simple 50/30/20 budgeting model. This is when you take 50% of your income for necessities, which would be recurring bills like rent and utilities. You will allocate 30% of your income for wants or everyday expenses like travel and entertainment. Lastly you will allocate 20% of your income for savings and paying off debt.</p>
         </div>
         <!-- 5 simple steps to budgeting -->
         <div class="col-lg" id="steps">
-            <p>Five Simple Steps to Budgeting</p>
-                <p>
-                    <li>1.Figure out your after tax income</li>
-                        <p>This can commonly be found on your pay stub.  If you are having automatic 401k or retirement payment taken out, then add them back to get a real income. Also add in other income from side jobs or gigs.</p>
-                    <li>2.Choose a budgeting plan</li>
-                        <p>Make sure to choose a budget that incorpates all your needs and wants. We will be using the simple 50/30/20 budget.</p>
-                    <li>3.Track your progress</li>
-                        <p>You can use a simple journal to do this. Also you can find apps under links on this page to automate tracking.</p>
-                    <li>4.Automate your savings</li>
-                        <p>This simply means taking 20% of all your income and putting it directly towards savings or towards paying off debt. Remember to always start with the high interest debt first.</p>
-                    <li>5.Reacess budget</li>
-                        <p>After a few months if you feel you have been making good progress paying down debt, then its time to reaccess. Similarly if you have a change in income you will need to reacess to stay ahead.</p>
-                </p>    
+            <div class="simple">   
+                <p>Five Simple Steps to Budgeting</p>
+            </div>     
+                    <p>
+                        <ul>1.Figure out your after tax income</ul>
+                            <p>This can commonly be found on your pay stub.  If you are having automatic 401k or retirement payment taken out, then add them back to get a real income. Also add in other income from side jobs or gigs.</p>
+                        <ul>2.Choose a budgeting plan</ul>
+                            <p>Make sure to choose a budget that incorpates all your needs and wants. We will be using the simple 50/30/20 budget.</p>
+                        <ul>3.Track your progress</ul>
+                            <p>You can use a simple journal to do this. Also you can find apps under links on this page to automate tracking.</p>
+                        <ul>4.Automate your savings</ul>
+                            <p>This simply means taking 20% of all your income and putting it directly towards savings or towards paying off debt. Remember to always start with the high interest debt first.</p>
+                        <ul>5.Reacess budget</ul>
+                            <p>After a few months if you feel you have been making good progress paying down debt, then its time to reaccess. Similarly if you have a change in income you will need to reacess to stay ahead.</p>
+                    </p>    
         </div>  
     </div>
     
     <div class="row">
         <!-- Form for calculating budgeting 50/30/20 -->
         <div class="col-lg" id="calculator">
-        <form>
-            <div class="row">
-                <div class="col-lg"> 
-                    <label for="Income">Monthly Income</label>
-                    <input type="number" id="Income" name="Monthly" min="1" max="1000000" required >
-                </div>
-                <div class="col-lg"> 
-                    <button type="menu" id="calculate" onclick="calculateIncome();">Calculate</button>
-                </div>
+            <div class="calc">
+                <p>Budgeting Calculator</p>
             </div>
-            <div>
-                <label for="Necessities">Necessities</label>
-                <input>
-            </div>
-            <div>
-                <label for="wants">Wants</label>
-                <input>
-            </div>
-            <div>
-                <label for="savings and debt">Savings and Debt</label>
-                <input>
-            </div>
-        </form>   
+                    <form>
+                        <div class="row">
+                            <div class="col-lg"> 
+                                <label for="Income">Monthly Income</label>
+                                <input type="number" id="Income" name="Monthly" min="1" max="1000000" required >
+                            </div>
+                            <div class="col-lg"> 
+                                <button type="menu" id="calculate" onclick="calculateIncome();">Calculate</button>
+                                <button type="reset">Reset</button>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="Necessities">Necessities</label>
+                            <input>
+                        </div>
+                        <div>
+                            <label for="wants">Wants</label>
+                            <input>
+                        </div>
+                        <div>
+                            <label for="savings and debt">Savings and Debt</label>
+                            <input>
+                        </div>
+                    </form>   
         </div>   
         <!-- Links for budgeting -->
-        <div class="col-lg" id="links">   
-            <a href="url"><li>https://www.mint.com/</li></a>
-            <a href="url"><li>https://pocketguard.com/</li></a>
-            <a href="url"><li>https://www.marcus.com/us/en/clarity-money</li></a>
-            <a href="url"><li>https://www.personalcapital.com/</li></a>
+        <div class="col-lg" id="links"> 
+            <div class="link">
+                <p>Links and apps</p>
+            </div>  
+                <a href="https://www.mint.com"><li>https://www.mint.com/</li></a>
+                <a href="https://pocketguard.com/"><li>https://pocketguard.com/</li></a>
+                <a href="https://www.marcus.com/us/en/clarity-money"><li>https://www.marcus.com/us/en/clarity-money</li></a>
+                <a href="https://www.personalcapital.com/"><li>https://www.personalcapital.com/</li></a>
 
         </div>
     </div>
