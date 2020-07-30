@@ -67,7 +67,10 @@ h1{
 
 #intro, #steps {
     margin-bottom: 1.4rem;
-    font-weight: 500;
+}
+
+#steps {
+    font-size: 1.2rem;
 }
 
 .link, .calc, .simple, .budget {

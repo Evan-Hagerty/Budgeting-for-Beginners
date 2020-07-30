@@ -1,4 +1,4 @@
-console.log("hi");
+
 
 function calculateIncome(){
     var monthlyIncome = parseInt(document.budgeting.income.value);
