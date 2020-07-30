@@ -1,5 +1,3 @@
-
-
 function calculateIncome(){
     var monthlyIncome = parseInt(document.budgeting.income.value);
     var necessities = (monthlyIncome * .5);
