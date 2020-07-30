@@ -1,4 +1,5 @@
 @media only screen and (max-width: 992px){
+    /* changes text for readability */
     #intro, #calculator{
         line-height: 2.5rem;
         font-size: .02rem ;
@@ -7,6 +8,7 @@
     #steps{
         font-weight: 700;
     }
+    /* fix for single column layout */
     #links{
         margin-top: 1rem;
     }
