@@ -1,3 +1,4 @@
+
 function calculateIncome(){
     var monthlyIncome = parseInt(document.budgeting.income.value);
     var nec = monthlyIncome * .5;
