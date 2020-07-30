@@ -6,4 +6,6 @@ function calculateIncome(){
     var wants = (monthlyIncome * .3);
     var savings = (monthlyIncome * .2); 
     document.getElementById(necessities).value = necessities;
+    document.getElementById(wants).value = wants;
+    document.getElementById(savings).value = savings;
 }
