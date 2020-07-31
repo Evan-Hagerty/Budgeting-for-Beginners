@@ -25,3 +25,5 @@ Created a JavaScript function that returns value in html form.
 Used JavaScript to perform math and displays result.
 
 Imported Bootstrap from a cdn.
+
+Jquery collapse of nav menu
