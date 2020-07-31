@@ -8,4 +8,9 @@ function calculateIncome(){
             document.getElementById("wants").value = want;
             document.getElementById("savings").value = saving;
         }
-}
+};
+
+// Adds collapse to nav bar
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
