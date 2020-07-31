@@ -78,6 +78,13 @@ h1{
     font-weight: bold;
 }
 
+p{
+    position: relative;
+}
+p span{
+    position: absolute;
+    top: -11.2rem;
+}
 .nav-bar{
       padding: .7rem;
       overflow: hidden;
